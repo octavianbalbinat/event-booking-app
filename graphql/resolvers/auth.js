@@ -41,8 +41,7 @@ module.exports = {
             'thisisthekey',
             {
                 expiresIn: '1h'
-            }
-        );
+            });
         return { userId: user.id, token: token, tokenExpiration: 1 }
     }
 }
