@@ -76,7 +76,7 @@ export default class Login extends Component {
                         <input id="login-password" type="password" placeholder="Enter password" ref={this.passwordEl} />
                     </div>
                     <div className="form-group">
-                        <Link to="/content"><button type="submit" className="btn btn-primary mr-4">Login</button> </Link>
+                        <button type="submit" className="btn btn-primary mr-4">Login</button>
                         <Link className="login-link-btn" to="/singup"><button className="btn btn-secondary">Go to singup</button></Link>
                     </div>
                 </form>
